@@ -1,0 +1,219 @@
+body {
+  background-color: #f2f2f2;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+.title{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+.py-5{
+  padding-top: 1rem !important;
+  /* padding-bottom: 3rem !important; */
+}
+.padding-section {
+  padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .padding-section {
+    padding-bottom: 30px;
+  }
+}
+
+.navbar-brand img{
+  max-width: 150px;
+}
+.animate__backInUp{
+  text-align: left;
+  display: flex;
+  gap: 50px;
+}
+.nav-align{
+  justify-content: end;
+}
+.row.padding-section-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 
+}
+.carousel-text {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 100%;
+}
+.row.padding-section__text-desc{
+  text-align: justify;
+}
+.row.padding-section__text-title{
+  text-align: left;
+}
+.form_1{
+  display: flex;
+  gap: 10px;
+  
+}
+input{
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 5px 5px 5px 0;
+  border-radius: 1px solid;
+  outline: none;
+}
+.form_1 input{
+  align-items: center;
+}
+.form_2{
+  margin-bottom: 25px;
+}
+.form_3{
+  margin:0 auto;
+}
+input{
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 5px;
+}
+.modal-body .forma{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.forma button{
+  padding: 5px;
+  margin:0 auto;
+  width: 140px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+
+}
+.flag {
+  color: black;
+  width: 50px;
+  height: 70px;
+  z-index: 3;
+  margin-right: 20px;
+}
+
+.text-align-container{
+  display: flex;
+  padding: 0 200px;
+
+}
+
+@media (max-width: 768px) {
+  .text-align-container {
+    padding: 0;
+  }
+}
+
+.flag-top-color {
+  width: 20px;
+  height: 100px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.flag-bottom-color {
+  width: 20px;
+  height: 100px;
+  border: 1px solid yellow;
+  background-color: yellow;
+}
+
+@media (max-width: 768px) {
+  .flag-top-color, .flag-bottom-color {
+    width: 10px;
+    height: 50px;
+  }
+}
+
+.main-text {
+  height: 100%;
+  z-index: 100;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 18px;
+  }
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img, .card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+.btn-primary{
+  color: #fff;
+  padding: 10px;
+  width: 140px;
+  background-color: #b83a00;
+  border-color: #ffffff;
+}
+.map_foto {
+  max-width: 500px;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 50px;
+}
+
+@media (max-width: 768px) {
+  .map_foto {
+    max-width: 200px;
+  }
+}
+
+.button-donate{
+  padding: 15px 50px;
+  margin-bottom: 50px;
+  margin-left: 1100px;
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+.copyright{
+  width:100%;
+  margin:30px 0 10px 0;
+}
+
+.copyright a{
+  color: white;
+}
+
+.zamok {
+  display: flex;
+  margin-bottom: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
+
+.animate__animated {
+  --animate-duration: 2s;
+}
